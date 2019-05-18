@@ -4,9 +4,12 @@
     <h1>{{ msg }}</h1>
     <h2>Seleccione una Opción</h2>
     <nav class="menu-principal">
-      <router-link tag="a" to="/clientes" class="scroll-suave">Clientes</router-link>
-      <router-link tag="a" to="/addclients" class="scroll-suave">Agregar-Clientes</router-link>
-      <a href="https://www.facebook.com/angeljesus.canpech" class="scroll-suave">Contacta al huasteco</a>
+      <router-link tag="a" to="/pizza" class="scroll-suave">  Catálogo </router-link>
+      <router-link tag="a" to="/clientes" class="scroll-suave">  Clientes  </router-link>
+      <router-link tag="a" to="/addclients" class="scroll-suave">  Agregar-Clientes </router-link>
+      <router-link tag="a" to="/empleado" class="scroll-suave">  NuestroEquipo  </router-link>
+      <router-link tag="a" to="/addemplo" class="scroll-suave">  Unetenos </router-link>
+      <a href="https://www.facebook.com/angeljesus.canpech" class="scroll-suave">  Contacta al huasteco</a>
     </nav>
 
 
@@ -21,7 +24,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Pizzeria Huastecos®'
+      msg: 'HuastecosPizza®'
     }
   }
 }
