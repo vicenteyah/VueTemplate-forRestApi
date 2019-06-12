@@ -34,7 +34,7 @@ export default {
    return {
      id: '',
      tipos_pizza : [],
-     url : "http://localhost:3000/tipos_pizza/"
+     url : "http://192.168.0.20:3000/tipos_pizza/"
    }
  },
 created() {

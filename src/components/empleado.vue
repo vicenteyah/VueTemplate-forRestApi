@@ -47,7 +47,7 @@ export default {
     return {
       id : '',
       datos_empleados: [],
-      url: "http://localhost:3000/datos_empleados/"
+      url: "http://192.168.0.20:3000/datos_empleados/"
     };
   },
   created() {

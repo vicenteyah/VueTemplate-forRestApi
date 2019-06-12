@@ -29,7 +29,7 @@ export default {
         telefono: null,
         direccion: ''
       },
-      url: "http://localhost:3000/datos_empleados"
+      url: "http://192.168.0.20:3000/datos_empleados"
     };
   },
   methods: {
